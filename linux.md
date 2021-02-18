@@ -143,3 +143,8 @@ ip a
 ```bash
 sudo shutdown now
 ```
+### Upload folder to VPS
+
+```bash
+scp -r user@ssh.example.com:/path/to/remote/source /path/to/local/destination
+```
