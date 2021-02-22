@@ -1,3 +1,7 @@
+# Useful docker commands
+
+## Docker
+
 ```bash
 docker run
 ```
@@ -48,3 +52,21 @@ docker logs
 ```bash
 docker exec -it
 ```
+
+```bash
+docker-compose up -d
+```
+
+## Docker compose
+
+### Stops containers and removes them 
+
+```bash
+docker compose down
+```
+### Stops containers and removes them 
+
+```bash
+docker compose stop
+```
+
