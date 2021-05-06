@@ -54,6 +54,10 @@ docker exec -it
 ```
 
 ```bash
+docker exec -it [container_name] bin/bash
+```
+
+```bash
 docker-compose up -d
 ```
 
