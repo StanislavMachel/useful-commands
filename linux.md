@@ -6,6 +6,11 @@
 mkdir [dirname]
 ```
 
+## Copy folder
+```bash
+cp -R <source_folder> <destination_folder>
+```
+
 ## Get list of users login to current host
 
 ```bash
