@@ -6,7 +6,7 @@
 docker run
 ```
 ```bash
-docker exet -t $container_id
+docker exec -it $container_id
 ```
 
 ```bash
@@ -74,3 +74,13 @@ docker compose down
 docker compose stop
 ```
 
+
+
+psql "dbname=bonus host=postgresql-prod1-throne-entertainment-prod.aivencloud.com user=avnadmin password=iyyswoiw2bj
+coj3i port=23131 sslmode=require"
+
+
+psql “postgresql://postgre_dev_account:qwerty@localhost:5432/dev_bonus” < pd_dump_outbox.sql
+
+
+psql "postgresql://avnadmin:iyyswoiw2bjcoj3i@postgresql-prod1-throne-entertainment-prod.aivencloud.com:23131/bonus" < pd_dump_outbox.sql
