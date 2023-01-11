@@ -51,6 +51,10 @@ kubectl config rename-context old-name new-name
 kubectl config use-context <context_name>
 ```
 
+```sh
+kubectl config use-context CONTEXT_NAME
+```
+
 
 <!-- kubectl config unset users.gke_project_zone_name
 
