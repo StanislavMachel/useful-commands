@@ -61,3 +61,11 @@ kubectl config use-context CONTEXT_NAME
 kubectl config unset contexts.aws_cluster1-kubernetes
 
 kubectl config unset clusters.foobar-baz -->
+
+```sh
+kubectl get deployments
+```
+
+```sh
+kubectl scale deployment/DEPLOYMENT_NAMA --replicas=NUM_OF_REPLICAS
+```
